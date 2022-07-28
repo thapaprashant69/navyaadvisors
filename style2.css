@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    min-height: max(100vh,600px);
     width: 100%;
     color:black;
     text-align: center;
@@ -11,14 +11,10 @@
     z-index: 40;
 }
 
-svg{
-    overflow: hidden;
-    margin-left:-8vw;
-}
 
 .third-page{
-    height: 105vh;
-    margin-top: -6.2vh;
+    min-height: max(105vh,900px);
+    margin-top: min(-6.2vh,-200px);
     background: url('/assets/background_photo_02.jpg');
     display: flex;
     flex-direction: column;
@@ -28,6 +24,7 @@ svg{
 
 img{
     max-width: 100%;
+    margin-top:-2px;
 }
 
 .input-div{
@@ -60,7 +57,7 @@ img{
 }
 
 .last-page{
-    height: 70vh;
+    height: max(20vh,150px);
     background-color:#ffd81b;
     display: flex;
     align-items: center;

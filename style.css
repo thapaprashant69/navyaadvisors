@@ -21,9 +21,10 @@ ul > li{
 }
 
 .first-page{
-    height: 100vh;
+    height: max(100vh,800px);
     background:url(/assets/background_photo_01.jpg);
     background-size: cover;
+    padding:10px;
 }
 
 body{
@@ -114,11 +115,6 @@ p{
 
 /* Footer styles */
 
-svg{
-    width: fit-content;
-    margin-bottom: -5px;
-}
-
 footer{
     background-color: #010b50;
     min-height: 200px;
@@ -160,9 +156,13 @@ footer{
 }
 
 
-@media only screen and (min-width: 900px) {
-    .header-list{
-        margin-inline: 2rem;
-        gap:5rem;
+@media only screen and (max-width: 600px) {
+    .subscribe-btn{
+        padding:2px 35px;
     }
+
+    .body > h2{
+        font-size: 3.5rem;
+    }
+    
 }
