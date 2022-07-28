@@ -1,0 +1,81 @@
+.second-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    color:black;
+    text-align: center;
+    background-color: #ffd81b;
+    z-index: 40;
+}
+
+svg{
+    overflow: hidden;
+    margin-left:-8vw;
+}
+
+.third-page{
+    height: 105vh;
+    margin-top: -6.2vh;
+    background: url('/assets/background_photo_02.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+img{
+    max-width: 100%;
+}
+
+.input-div{
+    display:flex;
+    flex-direction: column;
+    margin:2rem 0;
+    gap:8px;
+    margin-bottom:6rem;
+}
+
+.input-div > input{
+    min-width: min(30vw,330px);
+    line-height: 2rem;
+    padding:5px;
+}
+
+.input-div > textarea{
+    padding:10px;
+}
+
+.input-div > button{
+    width: fit-content;
+    margin-inline: auto;
+    padding:1rem 2rem;
+    background-color: #eccd1f;
+}
+
+.image-design{
+    z-index: 20;
+}
+
+.last-page{
+    height: 70vh;
+    background-color:#ffd81b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    flex-direction: column;
+    z-index: 20;
+}
+
+.last-page > ul{
+    list-style: none;
+}
+
+.last-page img{
+    width:50px;
+    border: none;
+}
+  
