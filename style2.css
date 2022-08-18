@@ -15,7 +15,7 @@
 .third-page{
     min-height: max(105vh,900px);
     margin-top: min(-6.2vh,-200px);
-    background: url('/assets/background_photo_02.jpg');
+    background: url('./assets/background_photo_02.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;

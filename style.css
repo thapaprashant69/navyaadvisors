@@ -22,7 +22,7 @@ ul > li{
 
 .first-page{
     height: max(100vh,800px);
-    background:url(/assets/background_photo_01.jpg);
+    background:url(./assets/background_photo_01.jpg);
     background-size: cover;
     padding:10px;
 }
